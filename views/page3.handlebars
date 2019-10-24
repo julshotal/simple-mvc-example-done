@@ -14,8 +14,9 @@
   <a href="/">Home</a>
   <a href="/page1">Page 1</a>
   <a href="/page2">Page 2</a>
+  <a href="/page4">Page 4</a>
 
-  <form action="/setName" method="POST">
+  <form action="/setDogName" method="POST">
     <label for="name">Name:</label>
     <input type="text" name="name" value="">
 
@@ -31,14 +32,15 @@
   <br/>
   
 
-  <form action="/updateLast" method="POST">
+  {{!-- <form action="/updateLast" method="POST">
     <input type="submit" value="Update Last">
   </form>
-  
+   --}}
+
   <br/>
   <br/>
   
-  <form action="findByName" method="GET">
+  <form action="findByDogName" method="GET">
     <label for="name">Name to search for:</label>
     <input type="text" name="name" value="">
     <input type="submit" value="Submit">
